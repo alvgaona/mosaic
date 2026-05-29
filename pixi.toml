@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Alvaro Gaona <alvgaona@gmail.com>"]
+channels = ["conda-forge"]
+name = "mosaic"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.5,<3.15"
+opencv = ">=4.13.0,<5"
+numpy = ">=2.4.6,<3"
+matplotlib = ">=3.10.9,<4"
